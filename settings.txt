@@ -1,0 +1,33 @@
+username=
+password=
+room=1.7
+in_how_many_days=14
+time=14:00
+duration=3
+booking_name=Example Name
+description=Example Description
+color=green
+
+#READ:
+
+! The machine you're running this on needs to be connected to KIT VPN !
+
+-username: your login username for https://bib-buchung.informatik.kit.edu. Not your Ilias or regular library login!
+
+-password: password for this site
+
+-room: options are 1.5, 1.6 and 1.7
+
+-in_how_many_days: in how many days. Max amount is 14. If the day is on a weekend, nothing happens.
+
+-time: format: hh:mm, add a leading 0 if needed. Options for minute are 00 and 30. Everything else will be set to 00.
+
+-duration: Options: 0.5; 1; 1.5; 2; 2.5; 3; number of hours.
+
+-booking_name: any string (not empty)
+
+-description: any string, can be empty
+
+-color: default is green. Look at website for all options.
+
+#if any value is in the wrong format, the program tries to use default value but might fail and crash.
